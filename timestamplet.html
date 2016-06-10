@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timestamplet</title>
+  </head>
+  <body>
+    <h1>Timestamplet</h1>
+    
+    <p>Drag the required bookmarklet to your browser bar.</p>
+    
+    <ol>
+      <li><a href="javascript:(function(){let d=new Date();let a=document.activeElement;a.value='['d.toString()+'] '+a.value;return false;})();">Timestamp before</a></li>
+      <li><a href="javascript:(function(){let d=new Date();document.activeElement.value+=' '+d.toString();return false;})();">Timestamp at the end</a></li>
+    </ol>
+
+  </body>
+</html>
